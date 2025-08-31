@@ -30,30 +30,30 @@ Installation
 
 Clone the repository:
 
-git clone <your-repo-link>
-cd Whisper_Speech_to_Text_Web
+  git clone <your-repo-link>
+  cd Whisper_Speech_to_Text_Web
 
 
 Install required packages:
 
-pip install torch torchvision torchaudio
-pip install transformers datasets accelerate soundfile gradio
+  pip install torch torchvision torchaudio
+  pip install transformers datasets accelerate soundfile gradio
 
 
 (Optional) For local microphone recording on Linux/Mac:
 
 # Linux
-sudo apt-get install portaudio19-dev
-pip install sounddevice
+  sudo apt-get install portaudio19-dev
+  pip install sounddevice
 # Mac
-brew install portaudio
-pip install sounddevice
+  brew install portaudio
+  pip install sounddevice
 
 Usage
 
 Run the app:
 
-python app.py
+  python app.py
 
 
 Web interface will open in your browser.
